@@ -20,7 +20,7 @@ class _MainPageState extends State<MainPage> {
         ),
         child: Column(
               children: [
-                const SizedBox(height: 20,),
+                const SizedBox(height: 40,),
                 const Row(
                   children: [
                     SizedBox(width: 20,),
@@ -38,11 +38,11 @@ class _MainPageState extends State<MainPage> {
                 const Expanded(child: SizedBox()),
                 previousOperation(),
                 const SizedBox(
-                  height: 30,
+                  height: 15,
                 ),
                 currentOperation(),
                 const SizedBox(
-                  height: 20,
+                  height: 15,
                 ),
                 buttons(),
               ],
