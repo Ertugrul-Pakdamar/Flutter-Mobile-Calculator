@@ -60,7 +60,7 @@ class _MainPageState extends State<MainPage> {
         Expanded(
           child: Text(
             previousNumber,
-            style: const TextStyle(fontSize: 30, color: Colors.black),
+            style: const TextStyle(fontSize: 30, color: Colors.white),
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
             textAlign: TextAlign.right,
@@ -82,7 +82,7 @@ class _MainPageState extends State<MainPage> {
         Expanded(
           child: Text(
             currentOperationText,
-            style: const TextStyle(fontSize: 45, color: Colors.black),
+            style: const TextStyle(fontSize: 45, color: Colors.white),
             maxLines: 2,
             overflow: TextOverflow.ellipsis,
             textAlign: TextAlign.right,
