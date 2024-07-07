@@ -1,3 +1,3 @@
-# calculator
+# Calculator
 
 Flutter Calculator App
